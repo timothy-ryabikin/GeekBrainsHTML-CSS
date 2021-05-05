@@ -229,7 +229,8 @@ footer{
 }
 
 .footer_contacts{
-    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
     background: url(/img/footer_back.jpg);
     min-height: 450px;
 }
@@ -393,3 +394,133 @@ footer{
 .pages_content a:hover{
     color: #F16D7F;
 }
+
+.product_block {
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.product_container_s{
+    min-height: 777px;
+    max-width: 1600px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+    align-items: center;
+}
+
+
+.product_pointer{
+    min-height: 47px;
+    width: 47px;
+    background-color:darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_pointer:hover{
+    cursor: pointer;
+    background-color: #F16D7F;
+    transition: all 0.5s;
+}
+
+.product_info{
+    min-height: 600px;
+    margin-bottom: 130px;
+}
+
+
+.product_info_content{
+    background-color: white;
+    height: 600px;
+    width: 1140px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    outline: 1px solid #EAEAEA;
+}
+
+.product_h2{
+    max-width: 160px;
+    margin: 0 auto;
+    padding-top: 60px;
+    border-bottom: 2px solid #F16D7F;
+    padding-bottom: 10px;
+}
+
+.product_text span{
+    color:#F16D7F;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.product_text{
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    border-bottom: 1px solid darkgray;
+}
+
+.product_text_content h2 {
+    padding: 0;
+    margin: 0;
+    color: #4D4D4D;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.product_text_content{
+    font-weight: 300;
+    color: #5E5E5E;
+    font-size: 14px;
+}
+
+.product_price{
+    color:#F16D7F;
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.product_info_navigation{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+}
+
+.product_info_navigation div{
+    color: #6F6E6E;
+    font-size: 14px;
+}
+
+.product_info_navigation div:not(:last-child){
+    
+    padding-right: 20px;
+}
+
+.button_add{
+    min-height: 48px;
+    max-width: 212px;
+    color: #F26376;
+    text-align: center;
+    white-space: nowrap;
+    padding: 15px 40px;
+    background-color: white;
+    border: 1px solid #F26376;
+  }
+
+  .button_add:hover{
+    color: white;
+    background-color: #F26376;
+    border: 1px solid #F26376;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+
+
+  
