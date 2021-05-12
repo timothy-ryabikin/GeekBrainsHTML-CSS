@@ -552,6 +552,7 @@ footer{
 
     &_container{
         display: flex;
+        color: #000;
     }
 
     &-about{
@@ -723,6 +724,126 @@ footer{
     height: 24px;
     color: #656565;
     text-align: center;
+}
+
+.registration {
+    box-sizing: border-box;
+    &_container{
+        min-height: 675px;
+        display: flex;
+    }
+
+    &-about{
+        width: 40%;
+
+    }
+
+    &-info{
+        width: 60%;
+        padding: 10px;
+        &__title{
+            color: #000;
+            font-weight: 300;
+            font-size: 24px;
+        }
+
+        &_list{
+            list-style-type: none;
+        }
+
+        &__text, &__item{
+            color: #000;
+            font-weight: 300;
+            font-size: 24px;
+        }
+
+        &__item{
+            position: relative;
+        }
+
+        &__item:after{
+            content: url(/img/registration_decore.svg);
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            bottom: 20px;
+            left: -30px;
+
+        }
+    }
+
+    &-form{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-form > input {
+        margin: 20px 0px;
+        min-height: 45px;
+        max-width: 360px;
+    }
+
+    &-title{
+        color: #222222;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    &-radio{
+        display: flex;
+        margin-bottom: 33px;
+    }
+
+    &-radio div{
+        color: #222222;
+        font-weight: 300;
+        font-size: 11px;
+    }
+
+    &-radio div input {margin-right: 10px;}
+
+    &-radio div:first-child{
+        margin-right: 20px;
+    }
+
+    &-text{
+        color: #B1B1B1;
+        font-weight: 300;
+        font-size: 11px;
+        margin-bottom: 40px;
+    }
+
+    &-btn{
+        font-size: 16px;
+        background-color: white;
+        color: #575757;
+        cursor: pointer;
+        border: none;
+        outline: 1px solid #A4A4A4;
+        width: 167px;
+        height: 50px;
+        text-align: left;
+        padding-left: 30px;
+
+        &:hover{
+            background-color: $decoreColor;
+            color: white;
+            transition: all 0.5s;
+            // transform: rotate(360deg);
+            transform: scale(1.1);
+        }
+
+        &:hover svg path{
+            fill: white; 
+            transition: all 0.5s;
+        }
+    }
+
+    &-svg{
+        display: inline;
+        margin-left: 10px;
+    }
 }
 
 

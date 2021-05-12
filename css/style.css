@@ -644,6 +644,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #000;
 }
 
 .cart-about {
@@ -841,5 +842,139 @@ footer {
   height: 24px;
   color: #656565;
   text-align: center;
+}
+
+.registration {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.registration_container {
+  min-height: 675px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.registration-about {
+  width: 40%;
+}
+
+.registration-info {
+  width: 60%;
+  padding: 10px;
+}
+
+.registration-info__title {
+  color: #000;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.registration-info_list {
+  list-style-type: none;
+}
+
+.registration-info__text, .registration-info__item {
+  color: #000;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.registration-info__item {
+  position: relative;
+}
+
+.registration-info__item:after {
+  content: url(/img/registration_decore.svg);
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: -30px;
+}
+
+.registration-form {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.registration-form > input {
+  margin: 20px 0px;
+  min-height: 45px;
+  max-width: 360px;
+}
+
+.registration-title {
+  color: #222222;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.registration-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 33px;
+}
+
+.registration-radio div {
+  color: #222222;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.registration-radio div input {
+  margin-right: 10px;
+}
+
+.registration-radio div:first-child {
+  margin-right: 20px;
+}
+
+.registration-text {
+  color: #B1B1B1;
+  font-weight: 300;
+  font-size: 11px;
+  margin-bottom: 40px;
+}
+
+.registration-btn {
+  font-size: 16px;
+  background-color: white;
+  color: #575757;
+  cursor: pointer;
+  border: none;
+  outline: 1px solid #A4A4A4;
+  width: 167px;
+  height: 50px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.registration-btn:hover {
+  background-color: #EF5B70;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.registration-btn:hover svg path {
+  fill: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.registration-svg {
+  display: inline;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
