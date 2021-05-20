@@ -1,0 +1,14 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+    .product_info_content{
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: $phonePixels){
+
+}
+

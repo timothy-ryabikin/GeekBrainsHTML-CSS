@@ -1,0 +1,19 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+    
+}
+
+
+@media (max-width: $phonePixels){
+
+    .registration_container {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .registration-about, .registration-info{
+        width: 100%;
+        padding: 0;
+    }
+}

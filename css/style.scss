@@ -1,6 +1,7 @@
 * {
     color: blanchedalmond;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .header {
@@ -13,6 +14,7 @@
     padding: 0 10px;  
     width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .header_container {
@@ -34,7 +36,7 @@
 }
 
 .promo_container{
-    min-height: 764px;
+    height: 764px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -43,7 +45,7 @@
 }
 
 .promo_text{
-    max-width: 375px;
+    width: 375px;
     width: 50%;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
@@ -257,7 +259,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 560px;
+    width: 35%;
     color: #222224;
     text-align: center;
     font-weight: 400;
@@ -492,7 +494,8 @@ summary:focus{
 .product_info_content{
     background-color: white;
     height: 600px;
-    width: 1140px;
+    // width: 1140px;
+    width: 70%;
     margin-top: -64px;
     position: relative; 
     text-align: center;
@@ -641,7 +644,7 @@ summary:focus{
         width: 40%; 
         padding: 10px;
         &_form{
-            max-width: 270px;
+            width: 270px;
             min-height: 360px;
         }
 
@@ -733,7 +736,6 @@ summary:focus{
 
 .item-about{
     display: flex; 
-    min-height: 300px;
     max-width: 650px;
     margin-bottom: 40px;
     outline: 1px solid #EAEAEA;
@@ -901,6 +903,14 @@ summary:focus{
     }
 }
 
+
+@import "_media-footer.scss";
+@import "_media-header.scss";
+@import "_media-index.scss";
+@import "_media-catalog.scss";
+@import "_media-product.scss";
+@import "_media-cart.scss";
+@import "_media-registration.scss";
 
 
 

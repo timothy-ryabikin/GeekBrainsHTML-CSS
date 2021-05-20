@@ -1,0 +1,9 @@
+@media (max-width: 575px) {
+  .header_nav a:not(:first-child) {
+    display: none;
+  }
+  .header_nav a:first-child {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=-media-header.css.map */

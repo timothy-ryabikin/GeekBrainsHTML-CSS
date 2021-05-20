@@ -1,0 +1,19 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+}
+
+
+@media (max-width: $phonePixels){
+    .top_container_content{
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 24px;
+    }
+
+    .top_container_content_left{
+        padding-bottom: 32px;
+    }
+}
+

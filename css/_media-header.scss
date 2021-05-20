@@ -1,0 +1,17 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+
+}
+
+
+@media (max-width: $phonePixels){
+
+    .header_nav a:not(:first-child) {
+        display: none;
+    }
+
+    .header_nav a:first-child {
+        margin-right: 10px;
+    }
+}
