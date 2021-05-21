@@ -47,7 +47,6 @@
 
 
 @media (max-width: $phonePixels){
-
     .item-about{
         min-height: 180px;
     }
@@ -80,6 +79,10 @@
 
     .cart-price{
         width: 100%;
+    }
+
+    .cart_container{
+        flex-direction: column;
     }
 
 }
