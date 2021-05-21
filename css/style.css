@@ -1179,6 +1179,12 @@ summary:focus {
     width: 100%;
     margin-right: 0;
   }
+  .cart_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .cart-form {
     padding: 0;
     width: 100%;
@@ -1188,6 +1194,7 @@ summary:focus {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-bottom: 100px;
   }
   .item-about {
     margin: 0 auto;
@@ -1205,9 +1212,6 @@ summary:focus {
   .cart-price {
     width: 40%;
     margin-top: 7%;
-  }
-  .cart-form {
-    margin-bottom: 100px;
   }
 }
 
