@@ -3,13 +3,15 @@
 @media (max-width: $tabletPixels){
 
     .promo{
-        height: calc(100vh - 77px); 
+        height: calc(100vw / 2); 
+        margin-bottom: 3%;
     }
 
+   
     .promo_container{
-        height: calc(100vh - 77px);
-        background-size: calc(100vh - 45px);
-        background-position: -120px bottom;
+        height: calc(100vw / 2); 
+        background-size: calc(100vw - 50%);
+        background-position: -3% bottom;
     }
     
     .cards{
@@ -20,10 +22,57 @@
     .card{
         width: 47%;
     }
+
+    .promo_text{
+        max-width: 100%;
+        margin-left: calc(100vw - 50%);
+    }
+
+    .promo_text h1{
+        font-size: 20px;
+    }
+    .promo_bigtext{
+        font-size: 38px;
+    }
+
+    .product_card:not(:last-child){
+        width: 32%;
+        min-height: 167px;
+    }
+
+    .product_card:last-child{
+        margin-top: 3%;
+        box-sizing: border-box;
+        min-height: 120px;
+    }
 }
 
 
 @media (max-width: $phonePixels){
+
+
+    .promo_text h1{
+        font-size: 20px;
+    }
+    .promo_bigtext{
+        font-size: 38px;
+    }
+
+    .promo{
+        height: calc(100vh / 2); 
+        margin-bottom: 3%;
+    }
+
+    
+
+    .product_card:not(:last-child){
+
+        min-height: 250px;
+    }
+    .promo_container{
+        height: calc(100vh / 2); 
+        background:none;
+    }
 
     .header_nav a:not(:first-child) {
         display: none;
@@ -38,22 +87,44 @@
     }
 
     .promo_text{
-        width: 70%;
         margin: 0 auto;
+        max-width: 100%;
     }
+
 
     .cards{
         justify-content: center;
     }
+
     .card{
         width: 98%;
     }
+
 
     .product_card:not(:last-child){  
         width: 100%;
     }
 
+    .product_card:last-child{  
+        width: 100%;
+        min-height: 111px;
+    }
+
     .product_card{
-        background:none;
+        margin: 3%;
+    }
+
+    .footer_copyright {
+        padding-top: 43px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer_right{
+        padding-top: 0;
+    }
+
+    .footer_left{
+    
+        padding-bottom: 10px;
     }
 }

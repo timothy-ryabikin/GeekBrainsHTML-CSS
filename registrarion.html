@@ -14,27 +14,20 @@
     <header class="header">
         <div class="container header_container">
             <div class="header_left">
-                <a class="header_logo" href="#">
+                <a class="header_logo" href="index.html">
                     <img height="38" width="44" src="img/logo.png" alt="logo">
                 </a>
                 <img height="26" width="26" src="img/search.png" alt="search">
-            </div>
-            <div class="test_nav">
-                <a href="index.html">Index</a>
-                <a href="catalog.html">Catalog</a>
-                <a href="product.html">Product</a>
-                <a href="cart.html">Cart</a>
-                <a href="registrarion.html">Registration</a>
             </div>
             <div class="header_right">
                 <div class="header_nav">
                     <a href="#">
                         <img height="23" width="32" src="img/nav.png" alt="navigation">
                     </a>
-                    <a href="#">
+                    <a href="registrarion.html">
                         <img height="29" width="29" src="img/profile.png" alt="profile">
                     </a>
-                    <a href="#">
+                    <a href="cart.html">
                         <img height="29" width="32" src="img/basket.png" alt="basket">
                     </a>
                 </div>
@@ -60,9 +53,9 @@
                         <h2 class="registration-title">Your Name</h2>
                         <input type="text" placeholder="First name">
                         <input type="text" placeholder="Last name">
-                        <div class="registration-radio">
-                            <div><input type="radio" name="Gender_radio">Male</div>
-                            <div><input type="radio" name="Gender_radio">Female</div>
+                        <div class="registration-radio" method="post">
+                            <div><input type="radio" value="Male" name="Gender">Male</div>
+                            <div><input type="radio" value="Female" name="Gender">Female</div>
                         </div>
                         <h2 class="registration-title">Login details</h2>
                         <input type="email" placeholder="Email">
@@ -148,7 +141,7 @@
                         <span class="footer_concacts_decore">SUBSCRIBE</span>
                         FOR OUR NEWLETTER AND PROMOTION
                         <div>
-                            <form class="footer_btn">
+                            <form class="footer_btn" method="post">
                                 <input type="email" placeholder="Enter Your Email">
                                 <button type="submit">Subscribe</button>
                             </form>

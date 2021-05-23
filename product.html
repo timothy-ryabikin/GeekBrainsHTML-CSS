@@ -14,27 +14,20 @@
     <header class="header">
         <div class="container header_container">
             <div class="header_left">
-                <a class="header_logo" href="#">
+                <a class="header_logo" href="index.html">
                     <img height="38" width="44" src="img/logo.png" alt="logo">
                 </a>
                 <img height="26" width="26" src="img/search.png" alt="search">
-            </div>
-            <div class="test_nav">
-                <a href="index.html">Index</a>
-                <a href="catalog.html">Catalog</a>
-                <a href="product.html">Product</a>
-                <a href="cart.html">Cart</a>
-                <a href="registrarion.html">Registration</a>
             </div>
             <div class="header_right">
                 <div class="header_nav">
                     <a href="#">
                         <img height="23" width="32" src="img/nav.png" alt="navigation">
                     </a>
-                    <a href="#">
+                    <a href="registrarion.html">
                         <img height="29" width="29" src="img/profile.png" alt="profile">
                     </a>
-                    <a href="#">
+                    <a href="cart.html">
                         <img height="29" width="32" src="img/basket.png" alt="basket">
                     </a>
                 </div>
@@ -50,9 +43,9 @@
                         NEW ARRIVALS
                     </div>
                     <div class="top_container_content_right">
-                        <a href="">HOME</a> /
+                        <a href="index.html">HOME</a> /
                         <a href="">MEN</a> /
-                        <a href="">NEW ARRIVALS</a>
+                        <a href="catalog.html">NEW ARRIVALS</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +53,7 @@
 
         <section class="product_block">
             <div class="product_container_s container">
-                <div class="product_content product_pointer">
+                <div class="product_content product_pointer product_pointer-left">
                     <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498 0.649902L12.6998 3.7499Z"
@@ -71,11 +64,11 @@
                     <picture>
                         <source media="(min-width: 770px)" srcset="img/catalog_photo.jpg">
                         <source media="(min-width: 546px)" srcset="img/catalog_photo-tablet.jpg">
-                        <img src="img/catalog_photo-phone.jpg" alt="catalog photo">
+                        <img class="product-phone__img" src="img/catalog_photo-phone.jpg" alt="catalog photo">
                     </picture>
                 </div>
 
-                <div class="product_content product_pointer">
+                <div class="product_content product_pointer product_pointer-right">
                     <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498 22.3499L0.299805 19.2499Z"
@@ -129,7 +122,9 @@
                             <img class="card_image" src="img/card4.jpg" alt="card 1">
                         </div>
                         <div class="card_text">
-                            <h3 class="card_h3">ELLERY X M'O CAPSULE</h3>
+                            <a href="product.html">
+                                <h3 class="card_h3">ELLERY X M'O CAPSULE</h3>
+                            </a>
                             <span class="card_info">Known for her sculptural takes on traditional tailoring,
                                 Australian
                                 arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
@@ -141,7 +136,9 @@
                             <img class="card_image" src="img/card3.jpg" alt="card 7">
                         </div>
                         <div class="card_text">
-                            <h3 class="card_h3">ELLERY X M'O CAPSULE</h3>
+                            <a href="product.html">
+                                <h3 class="card_h3">ELLERY X M'O CAPSULE</h3>
+                            </a>
                             <span class="card_info">Known for her sculptural takes on traditional tailoring,
                                 Australian
                                 arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
@@ -153,7 +150,9 @@
                             <img class="card_image" src="img/card6.jpg" alt="card 3">
                         </div>
                         <div class="card_text">
-                            <h3 class="card_h3">ELLERY X M'O CAPSULE</h3>
+                            <a href="product.html">
+                                <h3 class="card_h3">ELLERY X M'O CAPSULE</h3>
+                            </a>
                             <span class="card_info">Known for her sculptural takes on traditional tailoring,
                                 Australian
                                 arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
@@ -196,7 +195,7 @@
                         <span class="footer_concacts_decore">SUBSCRIBE</span>
                         FOR OUR NEWLETTER AND PROMOTION
                         <div>
-                            <form class="footer_btn">
+                            <form class="footer_btn" method="POST">
                                 <input type="email" placeholder="Enter Your Email">
                                 <button type="submit">Subscribe</button>
                             </form>

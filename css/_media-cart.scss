@@ -85,5 +85,28 @@
         flex-direction: column;
     }
 
+    .item-about__title .title a {
+        font-size: 16px;
+    }
+    .delete-cart-item{
+        margin-bottom: 20px;
+    }
+    .delete-cart-item svg {
+        cursor: pointer;
+        width: 10px;
+        height: 10px;
+    }
+
+    .cart-about__btn{
+        font-size: 12px;
+    }
+
+    .cart-form_form {
+        width: 90%;
+    }
+    
+    .item-about_text {
+        width: 40%;
+    }
 }
 

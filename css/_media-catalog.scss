@@ -13,7 +13,15 @@
     }
 
     .top_container_content_left{
-        padding-bottom: 32px;
+        margin-bottom: 32px;
+    }
+
+    .open-text, .open-img{       
+        display: none;
+    }
+
+    .filter-phone{
+        display: block;
     }
 }
 

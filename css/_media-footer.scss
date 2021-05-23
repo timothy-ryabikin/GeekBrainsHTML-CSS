@@ -8,7 +8,7 @@
 
     .footer_contacts{
         background: url(/img/footer-background-tablet.png)
-        no-repeat center center fixed; 
+        no-repeat center center; 
     }
 
     .footer_contacts_content{
@@ -43,8 +43,16 @@
 
     .footer_contacts{
         background: url(/img/footer-background-phone.png)
-        no-repeat center center fixed; 
+        no-repeat center center; 
         background-size: cover;
+    }
+
+    .footer_left{
+        padding-top: 40px;
+    }
+    
+    .footer_info_content{
+        width: 100%;
     }
 }
 
