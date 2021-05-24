@@ -1,6 +1,10 @@
 @import "var.scss";
 
 @media (max-width: $tabletPixels){
+
+    .registration{
+        margin-bottom: 0;
+    }
     .registration-about{
         width: 50%;
     }
@@ -36,6 +40,11 @@
 
 
 @media (max-width: $phonePixels){
+
+    .registration{
+        margin-bottom: 0;    
+    }
+
 
     .registration_container {
         flex-direction: column;
