@@ -862,7 +862,7 @@ details[open] > summary {
   transition: all 0.2s;
 }
 
-.button_add:hover .product_info_svg svg path {
+.button_add:hover .product_info_svg path {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   fill: white;
