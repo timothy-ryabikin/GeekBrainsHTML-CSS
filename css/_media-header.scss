@@ -2,6 +2,9 @@
 
 @media (max-width: $tabletPixels){
 
+    .header-menu-burger{
+        height: 100vw;
+    }
 }
 
 
@@ -14,4 +17,11 @@
     .header_nav a:first-child {
         margin-right: 10px;
     }
+
+    .header-menu-burger{
+
+        width: 87vw;
+        height: 100vh;
+    }
 }
+
