@@ -1,0 +1,27 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+
+    .header-menu-burger{
+        height: 100vw;
+    }
+}
+
+
+@media (max-width: $phonePixels){
+
+    .header_nav a:not(:first-child) {
+        display: none;
+    }
+
+    .header_nav a:first-child {
+        margin-right: 10px;
+    }
+
+    .header-menu-burger{
+
+        width: 87vw;
+        height: 100vh;
+    }
+}
+

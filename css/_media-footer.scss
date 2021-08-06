@@ -1,0 +1,58 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+    .footer_info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_contacts{
+        background: url(/img/footer-background-tablet.png)
+        no-repeat center center; 
+    }
+
+    .footer_contacts_content{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .footer_contacts_content_left{
+        padding-bottom: 48px;
+    }
+}
+
+
+@media (max-width: $phonePixels){
+    .footer_contacts_content{
+        padding-top: 30px;
+    }
+
+    .footer_info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_contacts_content_left{
+        padding-bottom: 48px;
+    }
+
+    .footer_btn input{
+        padding: 15px;
+    }
+
+    .footer_contacts{
+        background: url(/img/footer-background-phone.png)
+        no-repeat center center; 
+        background-size: cover;
+    }
+
+    .footer_left{
+        padding-top: 40px;
+    }
+    
+    .footer_info_content{
+        width: 100%;
+    }
+}
+

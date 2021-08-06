@@ -1,0 +1,62 @@
+@import "var.scss";
+
+@media (max-width: $tabletPixels){
+
+    .registration{
+        margin-bottom: 0;
+    }
+    .registration-about{
+        width: 50%;
+    }
+
+    .registration-info{
+        width: 50%;
+    }
+
+
+    .registration-info__title, .registration-info__text, .registration-info_list li p{
+        font-size: 16px;
+    }
+
+
+    .registration-info__title{
+        padding-bottom: 32px;
+    }
+
+    .registration-info__text{
+        margin-bottom: 22px;
+    }
+    
+    .registration-info__item:after {
+        bottom: 8px;
+        left: -30px;
+    }
+
+    .registration-form input{
+        margin: 10px;
+        padding: 5px 30px 10px 10px;
+    }
+}
+
+
+@media (max-width: $phonePixels){
+
+    .registration{
+        margin-bottom: 0;    
+    }
+
+
+    .registration_container {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .registration-about, .registration-info{
+        width: 100%;
+        padding: 0;
+    }
+
+    .top_container_content{
+        padding-top: 60px;
+    }
+}
